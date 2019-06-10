@@ -1,0 +1,3 @@
+include ':demo.protocol', ':protocol-api', ':protocol-annotation', ':protocol-compiler', ':protocol-plugin', ':demo.protocol.module2'
+
+

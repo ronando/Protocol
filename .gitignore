@@ -1,0 +1,23 @@
+build/
+/*/build/
+*.iml
+.idea/
+
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+# Gradle files
+.gradle/
+
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+
+# Log Files
+*.log

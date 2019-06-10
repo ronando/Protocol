@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation project(":protocol-annotation")
+    implementation 'com.crgt.android:base-protocol-annotation:1.0.0-SNAPSHOT'
+    implementation 'com.google.auto.service:auto-service:1.0-rc3'
+    implementation 'com.squareup:javapoet:1.9.0'
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+apply from: '../gradle-maven-push.gradle'
