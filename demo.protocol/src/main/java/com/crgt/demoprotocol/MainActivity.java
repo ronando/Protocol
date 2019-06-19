@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initProtocols() {
-        Protocol.configProtocol(new DefaultProtocolParser("in", DefaultProtocolParser.ComponentIdentifier.HOST));
+        Protocol.setParser(new DefaultProtocolParser("in", DefaultProtocolParser.ComponentIdentifier.HOST));
         Protocol.setPreProcessor(new PreProcessor());
         Protocol.setDefaultProcessor(new DefaultProcessor());
     }
