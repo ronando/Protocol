@@ -14,7 +14,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.crgt.android:base-protocol-annotation:1.0.0-SNAPSHOT'
+    implementation 'com.crgt.android:base-protocol-annotation:1.0.0'
 
 }
 

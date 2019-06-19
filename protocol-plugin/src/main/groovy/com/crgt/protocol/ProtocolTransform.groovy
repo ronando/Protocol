@@ -25,8 +25,8 @@ class ProtocolTransform implements Plugin<Project> {
                 }
 
                 if (it.plugins.hasPlugin("com.android.application") || it.plugins.hasPlugin("com.android.library")) {
-                    it.dependencies.add('implementation', "com.crgt.android:base-protocol-api:1.0.0-SNAPSHOT")
-                    it.dependencies.add('annotationProcessor', "com.crgt.android:base-protocol-compiler:1.0.0-SNAPSHOT")
+                    it.dependencies.add('implementation', "com.crgt.android:base-protocol-api:1.0.0")
+                    it.dependencies.add('annotationProcessor', "com.crgt.android:base-protocol-compiler:1.0.0")
 
                     it.android.defaultConfig.javaCompileOptions.annotationProcessorOptions.argument('moduleName', it.name)
                 }

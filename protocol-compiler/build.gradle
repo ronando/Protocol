@@ -3,7 +3,7 @@ apply plugin: 'java-library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 //    implementation project(":protocol-annotation")
-    implementation 'com.crgt.android:base-protocol-annotation:1.0.0-SNAPSHOT'
+    implementation 'com.crgt.android:base-protocol-annotation:1.0.0'
     implementation 'com.google.auto.service:auto-service:1.0-rc3'
     implementation 'com.squareup:javapoet:1.9.0'
 }
